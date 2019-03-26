@@ -1,0 +1,6 @@
+framework module HealthXK {
+  umbrella header "HealthXK-umbrella.h"
+
+  export *
+  module * { export * }
+}
