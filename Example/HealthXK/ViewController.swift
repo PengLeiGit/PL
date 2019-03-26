@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import HealthXK
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let nameLabel = UILabel()
+        self.view.addSubview(nameLabel)
+        nameLabel.frame = CGRect(x: 10, y: 80, width: self.view.frame.width - 20, height: 30)
+        nameLabel.backgroundColor = UIColor.gm_theme
     }
 
     override func didReceiveMemoryWarning() {

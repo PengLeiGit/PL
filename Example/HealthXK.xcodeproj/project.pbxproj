@@ -30,8 +30,8 @@
 /* Begin PBXFileReference section */
 		015688CD86B73E18143AE764 /* Pods-HealthXK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthXK_Example.release.xcconfig"; path = "Target Support Files/Pods-HealthXK_Example/Pods-HealthXK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2FAFB32D4DB3DD473B28B622 /* Pods-HealthXK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthXK_Example.debug.xcconfig"; path = "Target Support Files/Pods-HealthXK_Example/Pods-HealthXK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5B10067DB00EBE333D5FEC19 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		5C52F271B06B1707C97CE34C /* HealthXK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HealthXK.podspec; path = ../HealthXK.podspec; sourceTree = "<group>"; };
+		5B10067DB00EBE333D5FEC19 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5C52F271B06B1707C97CE34C /* HealthXK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HealthXK.podspec; path = ../HealthXK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* HealthXK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthXK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		C397C884FECEB699F358AE64 /* Pods_HealthXK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthXK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C529956DC37F83BED55367E3 /* Pods_HealthXK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthXK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8B27AB6ECCA7EF67F5E39E3 /* Pods-HealthXK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthXK_Tests.release.xcconfig"; path = "Target Support Files/Pods-HealthXK_Tests/Pods-HealthXK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F96EA0C9B6F931394337BA59 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F96EA0C9B6F931394337BA59 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				7AB9A80648B3D772F8290E9F /* Pods-HealthXK_Tests.debug.xcconfig */,
 				C8B27AB6ECCA7EF67F5E39E3 /* Pods-HealthXK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

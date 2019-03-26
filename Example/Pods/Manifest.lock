@@ -1,0 +1,16 @@
+PODS:
+  - HealthXK (0.1.0)
+
+DEPENDENCIES:
+  - HealthXK (from `../`)
+
+EXTERNAL SOURCES:
+  HealthXK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HealthXK: f82f35a8d0401adb414d77c97b3d3b102b5a439d
+
+PODFILE CHECKSUM: fff665a1455bf6c78c830a2129737cc70079a255
+
+COCOAPODS: 1.6.1
