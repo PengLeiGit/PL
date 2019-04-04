@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HealthXK'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = '项目独立功能集成'
 
 # This description is used to generate tags and improve search results.
@@ -34,11 +34,12 @@ TODO: Add long description of the pod here.
   s.swift_version = '4.2'
   
   
-  # s.resource_bundles = {
-  #   'HealthXK' => ['HealthXK/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.subspec 'AppStore' do |ss|
+    ss.source_files = "HealthHK/Classes/AppStore/*.swift"
+  end
+  
+  s.subspec 'PLRoute' do |ss|
+    ss.source_files = "HealthHK/Classes/PLRoute/*.swift"
+  end
+  
 end
