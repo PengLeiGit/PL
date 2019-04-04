@@ -7,24 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0ED53A1F0F08F44AC66BEB1F20039709 /* UIViewController+Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A759A28964A82034A7DD45DC6A35C1C /* UIViewController+Route.swift */; };
-		2E777E2AA82E59955D33A390572E976B /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0732DC6445E59B6228454C0A727183C /* UIColor+Extension.swift */; };
-		50273D8ABA2EE3F9FFB3DF7F7DA57771 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		561143078DD5A24AD9EBD3D0AA7DA5F7 /* PLRoute+Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2961FAD8ADFE1CEE9E8495848C3A50 /* PLRoute+Main.swift */; };
-		761D357442F17B2AB8ABFAF6C3E45916 /* PLErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B5E99C750A343EF20DD36291184907 /* PLErrorViewController.swift */; };
-		8B6AB1775FC8705EEA9DB8F9E81C2BFB /* PLNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F2492AB6D704F58A8318BBA8572C78 /* PLNavigationController.swift */; };
+		02E24A47E56D90D5AA93B295EE5A9747 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		26DDDEEEBDEED141DDA9BA3E803F1642 /* PLRoute+Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8073485BB1CE3E70CBA2E12B39F58C89 /* PLRoute+Main.swift */; };
+		42C4DC72196A390C823C9F59D6727636 /* HealthXK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06D55D6F591BC5A3776109C91A816517 /* HealthXK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7266C7002FF982A2FE228BB823B4F301 /* PLRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330E82DB608AC8552197C76009BF019C /* PLRoute.swift */; };
+		803B6CFC52C85B38677DACBFBBF46964 /* PLAppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2A8C3A847F082B6B527A565D836BA /* PLAppStore.swift */; };
 		9663551BC0F0097F57DCFCC151BF5DC6 /* Pods-HealthXK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 557E668B7F1F2BB515C175E3413E1120 /* Pods-HealthXK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9BB0505F7ED00B7D7D07B3781131B5C5 /* Pods-HealthXK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8BFC78289BADFBC45A85389FBDC6E7 /* Pods-HealthXK_Tests-dummy.m */; };
+		A27358080968DE88D08E44A92CD763A9 /* HealthXK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A5E72C625E022AB70B1AFFB1B9AB44 /* HealthXK-dummy.m */; };
 		AD368A3FD6196043673068AD64F87919 /* Pods-HealthXK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 251C7A7736D73076BB2CB8F632D46B73 /* Pods-HealthXK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B62A96DDD791888514CAC06E091E3E7D /* Pods-HealthXK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B35FE8CC4B0B3AE90CDFE2C4D900004 /* Pods-HealthXK_Example-dummy.m */; };
-		BE3AFC25AB61DE3F158D70119864CE91 /* PLBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C1FCF18645A04C2096610AD54AEA4A /* PLBaseViewController.swift */; };
-		CC1E1F45D3DA93C45642203076824777 /* PLAppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08218C9C2CC6011A8804D92B6F208E4D /* PLAppStore.swift */; };
-		E0C3E0033E4CF578196287A359F9A20C /* HealthXK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E8ACAB1205A9CC9BFD53FAD6463842 /* HealthXK-dummy.m */; };
+		B7F4F609A243CA082BD9604DBC258829 /* PLNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D4FA6081B82C419459B05E4AB57C30 /* PLNavigationController.swift */; };
+		C76141473B9D71BD0D86C254B0DB1394 /* UIViewController+Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE234B39623C1072F269A0ADDED53EBE /* UIViewController+Route.swift */; };
+		D27D794663A51EC5A53AB39DCD3DF977 /* PLErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A4C6F82B1B1DA39DF7A1A488F73CDC /* PLErrorViewController.swift */; };
+		DA538A25813813E20928EC6B98A59F48 /* PLTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A0E60EF2ADD1ED4F59EE65FA87613E /* PLTabBarController.swift */; };
 		E29866C2877E7CE7A46329678DB37FF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		E48C877E00844FC519AA88C202A3A57D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		E8584E38E69E89BF022DE73658940261 /* HealthXK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C07CD27DF5A82ADAC537BD5C8EEB4C0 /* HealthXK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F11E8B73124905456793D3E8EF1CBBCA /* PLRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1794870463DE965B5967786958EF23 /* PLRoute.swift */; };
-		F5CE1D62C105D455CA3AB7B8AF5E2E12 /* PLTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8843B9D24E11BEF4B718FFD74E7D7B64 /* PLTabBarController.swift */; };
+		E981134531A36349B4E94C392A33C108 /* PLBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77E1C9AA489F3271AD612066DF1DCF6 /* PLBaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,55 +38,62 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 319B366C23BED1564CAEC6838F21C018;
+			remoteGlobalIDString = 9B0D7DE33BDAD8F7F4DC189F258ACE6C;
 			remoteInfo = HealthXK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		03B2F78443F16B1AD2896BDD9E163B28 /* Pods-HealthXK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HealthXK_Example.modulemap"; sourceTree = "<group>"; };
-		08218C9C2CC6011A8804D92B6F208E4D /* PLAppStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PLAppStore.swift; sourceTree = "<group>"; };
+		06D55D6F591BC5A3776109C91A816517 /* HealthXK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HealthXK-umbrella.h"; sourceTree = "<group>"; };
+		07043DE1BC85F6C88B0402DD27DDDC05 /* HealthXK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HealthXK-Info.plist"; sourceTree = "<group>"; };
 		16694D9FCF9C2280AD6D2B8B8591AC92 /* Pods-HealthXK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthXK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1BA2A8C3A847F082B6B527A565D836BA /* PLAppStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PLAppStore.swift; path = HealthXK/Classes/AppStore/PLAppStore.swift; sourceTree = "<group>"; };
 		218388390C2C4A4954E3B81BCA0AFA13 /* Pods-HealthXK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthXK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		21D5AF022B3640D1C9786321EAA19792 /* HealthXK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HealthXK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		251C7A7736D73076BB2CB8F632D46B73 /* Pods-HealthXK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HealthXK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		261918DF56D5C54F1B8291560BB10CD9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		2C07CD27DF5A82ADAC537BD5C8EEB4C0 /* HealthXK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HealthXK-umbrella.h"; sourceTree = "<group>"; };
+		276508E4D4B78A9EA145106C749630B2 /* HealthXK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HealthXK.modulemap; sourceTree = "<group>"; };
+		330E82DB608AC8552197C76009BF019C /* PLRoute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PLRoute.swift; path = HealthXK/Classes/PLRoute/PLRoute.swift; sourceTree = "<group>"; };
 		33B015E787038D03A14E65D2508DC779 /* Pods-HealthXK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthXK_Tests-Info.plist"; sourceTree = "<group>"; };
+		44A0E60EF2ADD1ED4F59EE65FA87613E /* PLTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PLTabBarController.swift; path = HealthXK/Classes/PLRoute/PLTabBarController.swift; sourceTree = "<group>"; };
 		46C39DB8F0045585D85D2B3BD1B49C5E /* Pods-HealthXK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HealthXK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		47CABEE5279E16818D564DD5368E93B3 /* HealthXK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HealthXK-Info.plist"; sourceTree = "<group>"; };
 		557E668B7F1F2BB515C175E3413E1120 /* Pods-HealthXK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HealthXK_Example-umbrella.h"; sourceTree = "<group>"; };
-		56B5E99C750A343EF20DD36291184907 /* PLErrorViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PLErrorViewController.swift; sourceTree = "<group>"; };
 		5C15193D2E678469302FECF4F992A7B1 /* Pods-HealthXK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthXK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6A759A28964A82034A7DD45DC6A35C1C /* UIViewController+Route.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+Route.swift"; sourceTree = "<group>"; };
-		7EC4CC7A9C8AF5264565C3B059A438CB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		77A4C6F82B1B1DA39DF7A1A488F73CDC /* PLErrorViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PLErrorViewController.swift; path = HealthXK/Classes/PLRoute/PLErrorViewController.swift; sourceTree = "<group>"; };
 		8042549DF32C80D18DF425856D9E7736 /* Pods_HealthXK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HealthXK_Example.framework; path = "Pods-HealthXK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		85CE825FF54E3771F1B32BAAE5060676 /* HealthXK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HealthXK-prefix.pch"; sourceTree = "<group>"; };
-		8843B9D24E11BEF4B718FFD74E7D7B64 /* PLTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PLTabBarController.swift; sourceTree = "<group>"; };
-		8BD0C658E8D1C2F1C74EF358E5089947 /* HealthXK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HealthXK.modulemap; sourceTree = "<group>"; };
-		8D1794870463DE965B5967786958EF23 /* PLRoute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PLRoute.swift; sourceTree = "<group>"; };
+		8073485BB1CE3E70CBA2E12B39F58C89 /* PLRoute+Main.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PLRoute+Main.swift"; path = "HealthXK/Classes/PLRoute/PLRoute+Main.swift"; sourceTree = "<group>"; };
+		883D9A2A018FFCE287F7EE55A3AC7159 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		90733ACFFB91D7759730D00E33126C01 /* Pods-HealthXK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthXK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		94F2492AB6D704F58A8318BBA8572C78 /* PLNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PLNavigationController.swift; sourceTree = "<group>"; };
+		97A5E72C625E022AB70B1AFFB1B9AB44 /* HealthXK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HealthXK-dummy.m"; sourceTree = "<group>"; };
 		9B35FE8CC4B0B3AE90CDFE2C4D900004 /* Pods-HealthXK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HealthXK_Example-dummy.m"; sourceTree = "<group>"; };
+		9C846DD077BB795928910E4419AA5E34 /* HealthXK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HealthXK-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A521886E30684688F9995FE2AAE6FE45 /* HealthXK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HealthXK.framework; path = HealthXK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D1115718B90E7895BBDDC0F054AA56 /* Pods-HealthXK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthXK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A77862CDCF2F99D77245C0C905E5CFB3 /* Pods_HealthXK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HealthXK_Tests.framework; path = "Pods-HealthXK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD65CEA815F90AD0FEDD2820A4BC4B7 /* Pods-HealthXK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthXK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B6C1FCF18645A04C2096610AD54AEA4A /* PLBaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PLBaseViewController.swift; sourceTree = "<group>"; };
+		B0D4FA6081B82C419459B05E4AB57C30 /* PLNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PLNavigationController.swift; path = HealthXK/Classes/PLRoute/PLNavigationController.swift; sourceTree = "<group>"; };
 		B7396238A02C9F9ACF8A2E98F0CFED08 /* Pods-HealthXK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthXK_Example-Info.plist"; sourceTree = "<group>"; };
 		BA8BFC78289BADFBC45A85389FBDC6E7 /* Pods-HealthXK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HealthXK_Tests-dummy.m"; sourceTree = "<group>"; };
-		C5E8ACAB1205A9CC9BFD53FAD6463842 /* HealthXK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HealthXK-dummy.m"; sourceTree = "<group>"; };
-		C8BCA18D2AF04AE794F42ADA0054A8E2 /* HealthXK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HealthXK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BDF3BA03171B494CA84B3D9CAE2FA208 /* HealthXK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HealthXK.xcconfig; sourceTree = "<group>"; };
+		BE234B39623C1072F269A0ADDED53EBE /* UIViewController+Route.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Route.swift"; path = "HealthXK/Classes/PLRoute/UIViewController+Route.swift"; sourceTree = "<group>"; };
+		CABA8BA8E33A3E4BC14034B6E2085F8A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D2A08E6AC52107B42ABEC95F74188DBC /* Pods-HealthXK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HealthXK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		DC2961FAD8ADFE1CEE9E8495848C3A50 /* PLRoute+Main.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "PLRoute+Main.swift"; sourceTree = "<group>"; };
-		F0732DC6445E59B6228454C0A727183C /* UIColor+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Extension.swift"; path = "HealthXK/Classes/UIColor+Extension.swift"; sourceTree = "<group>"; };
-		F0D282DF4860ED726A386A7C7887442F /* HealthXK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HealthXK.xcconfig; sourceTree = "<group>"; };
 		F4A8857087FB08C2E4304613B7623002 /* Pods-HealthXK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HealthXK_Tests.modulemap"; sourceTree = "<group>"; };
 		F5995333617D8FDBA64D431544DABE7C /* Pods-HealthXK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HealthXK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F77E1C9AA489F3271AD612066DF1DCF6 /* PLBaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PLBaseViewController.swift; path = HealthXK/Classes/PLRoute/PLBaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AC739275FC757B9711A18ECB694B58A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E24A47E56D90D5AA93B295EE5A9747 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C66B87B664C35CCD557C23C14EBAC18D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -104,17 +110,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F59E40872B2750F0EB48E9D173E48413 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				50273D8ABA2EE3F9FFB3DF7F7DA57771 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07A2A39A7CC17ED353D0F0CB500BAB82 /* PLRoute */ = {
+			isa = PBXGroup;
+			children = (
+				F77E1C9AA489F3271AD612066DF1DCF6 /* PLBaseViewController.swift */,
+				77A4C6F82B1B1DA39DF7A1A488F73CDC /* PLErrorViewController.swift */,
+				B0D4FA6081B82C419459B05E4AB57C30 /* PLNavigationController.swift */,
+				330E82DB608AC8552197C76009BF019C /* PLRoute.swift */,
+				8073485BB1CE3E70CBA2E12B39F58C89 /* PLRoute+Main.swift */,
+				44A0E60EF2ADD1ED4F59EE65FA87613E /* PLTabBarController.swift */,
+				BE234B39623C1072F269A0ADDED53EBE /* UIViewController+Route.swift */,
+			);
+			name = PLRoute;
+			sourceTree = "<group>";
+		};
+		0B78BCCB505D6B93E89928CCA60254D2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DE5A249EF23886341E80CE579249388 /* HealthXK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		0C2F51B097AD75066FAA6A5E1402D8D0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				21D5AF022B3640D1C9786321EAA19792 /* HealthXK.podspec */,
+				CABA8BA8E33A3E4BC14034B6E2085F8A /* LICENSE */,
+				883D9A2A018FFCE287F7EE55A3AC7159 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		2949AF3D9B68C01906C3B86E2FCB8F1B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,33 +170,13 @@
 			path = "Target Support Files/Pods-HealthXK_Tests";
 			sourceTree = "<group>";
 		};
-		3E7DC5FAEEA0E828EA134F1139F503EF /* Pod */ = {
+		4DE5A249EF23886341E80CE579249388 /* HealthXK */ = {
 			isa = PBXGroup;
 			children = (
-				C8BCA18D2AF04AE794F42ADA0054A8E2 /* HealthXK.podspec */,
-				7EC4CC7A9C8AF5264565C3B059A438CB /* LICENSE */,
-				261918DF56D5C54F1B8291560BB10CD9 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		4DC8913944F63060867630D363DCA699 /* AppStore */ = {
-			isa = PBXGroup;
-			children = (
-				08218C9C2CC6011A8804D92B6F208E4D /* PLAppStore.swift */,
-			);
-			name = AppStore;
-			path = HealthXK/Classes/AppStore;
-			sourceTree = "<group>";
-		};
-		4E8E8D553024B3966CC7FB7129B3B79B /* HealthXK */ = {
-			isa = PBXGroup;
-			children = (
-				F0732DC6445E59B6228454C0A727183C /* UIColor+Extension.swift */,
-				4DC8913944F63060867630D363DCA699 /* AppStore */,
-				7D96B3500AAD9D49CE3EFCC89A27DB52 /* PLRoute */,
-				3E7DC5FAEEA0E828EA134F1139F503EF /* Pod */,
-				B148A54F1CE8C9DFF9101B6EFDD703B6 /* Support Files */,
+				ED1E782DA02BE2F650FFF142690CBE8A /* AppStore */,
+				07A2A39A7CC17ED353D0F0CB500BAB82 /* PLRoute */,
+				0C2F51B097AD75066FAA6A5E1402D8D0 /* Pod */,
+				DC4AADE4A9299C8E1F0DA7255EA1A7C8 /* Support Files */,
 			);
 			name = HealthXK;
 			path = ../..;
@@ -189,21 +199,6 @@
 			path = "Target Support Files/Pods-HealthXK_Example";
 			sourceTree = "<group>";
 		};
-		7D96B3500AAD9D49CE3EFCC89A27DB52 /* PLRoute */ = {
-			isa = PBXGroup;
-			children = (
-				B6C1FCF18645A04C2096610AD54AEA4A /* PLBaseViewController.swift */,
-				56B5E99C750A343EF20DD36291184907 /* PLErrorViewController.swift */,
-				94F2492AB6D704F58A8318BBA8572C78 /* PLNavigationController.swift */,
-				8D1794870463DE965B5967786958EF23 /* PLRoute.swift */,
-				DC2961FAD8ADFE1CEE9E8495848C3A50 /* PLRoute+Main.swift */,
-				8843B9D24E11BEF4B718FFD74E7D7B64 /* PLTabBarController.swift */,
-				6A759A28964A82034A7DD45DC6A35C1C /* UIViewController+Route.swift */,
-			);
-			name = PLRoute;
-			path = HealthXK/Classes/PLRoute;
-			sourceTree = "<group>";
-		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -222,25 +217,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B148A54F1CE8C9DFF9101B6EFDD703B6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8BD0C658E8D1C2F1C74EF358E5089947 /* HealthXK.modulemap */,
-				F0D282DF4860ED726A386A7C7887442F /* HealthXK.xcconfig */,
-				C5E8ACAB1205A9CC9BFD53FAD6463842 /* HealthXK-dummy.m */,
-				47CABEE5279E16818D564DD5368E93B3 /* HealthXK-Info.plist */,
-				85CE825FF54E3771F1B32BAAE5060676 /* HealthXK-prefix.pch */,
-				2C07CD27DF5A82ADAC537BD5C8EEB4C0 /* HealthXK-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HealthXK";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				EBA05294199B281F45C6DF28D303D832 /* Development Pods */,
+				0B78BCCB505D6B93E89928CCA60254D2 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				AB28E7215FFF56D33CF029DA43763F94 /* Products */,
 				2949AF3D9B68C01906C3B86E2FCB8F1B /* Targets Support Files */,
@@ -255,12 +236,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EBA05294199B281F45C6DF28D303D832 /* Development Pods */ = {
+		DC4AADE4A9299C8E1F0DA7255EA1A7C8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4E8E8D553024B3966CC7FB7129B3B79B /* HealthXK */,
+				276508E4D4B78A9EA145106C749630B2 /* HealthXK.modulemap */,
+				BDF3BA03171B494CA84B3D9CAE2FA208 /* HealthXK.xcconfig */,
+				97A5E72C625E022AB70B1AFFB1B9AB44 /* HealthXK-dummy.m */,
+				07043DE1BC85F6C88B0402DD27DDDC05 /* HealthXK-Info.plist */,
+				9C846DD077BB795928910E4419AA5E34 /* HealthXK-prefix.pch */,
+				06D55D6F591BC5A3776109C91A816517 /* HealthXK-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HealthXK";
+			sourceTree = "<group>";
+		};
+		ED1E782DA02BE2F650FFF142690CBE8A /* AppStore */ = {
+			isa = PBXGroup;
+			children = (
+				1BA2A8C3A847F082B6B527A565D836BA /* PLAppStore.swift */,
+			);
+			name = AppStore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,14 +269,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B65F60501ACAD40711BD0F05CEAAE67D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E8584E38E69E89BF022DE73658940261 /* HealthXK-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CC02A4F7FE7DF85CAB72A03134042245 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -290,27 +277,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D1689C960494CA92026AE7D7808907BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C4DC72196A390C823C9F59D6727636 /* HealthXK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		319B366C23BED1564CAEC6838F21C018 /* HealthXK */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0D4E0E8BA37AD43FBF23CF59B87C5224 /* Build configuration list for PBXNativeTarget "HealthXK" */;
-			buildPhases = (
-				B65F60501ACAD40711BD0F05CEAAE67D /* Headers */,
-				8F11FCD68838B300CAF2C19CA36F5C93 /* Sources */,
-				F59E40872B2750F0EB48E9D173E48413 /* Frameworks */,
-				120C229A2D9DBBAFAE3FD4E9467E931D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = HealthXK;
-			productName = HealthXK;
-			productReference = A521886E30684688F9995FE2AAE6FE45 /* HealthXK.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		5F2CBE861672BE30C46C336FE58E4C4D /* Pods-HealthXK_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A194C44DFC70F2BA72F0427F7CDBA83D /* Build configuration list for PBXNativeTarget "Pods-HealthXK_Tests" */;
@@ -328,6 +305,24 @@
 			name = "Pods-HealthXK_Tests";
 			productName = "Pods-HealthXK_Tests";
 			productReference = A77862CDCF2F99D77245C0C905E5CFB3 /* Pods_HealthXK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B0D7DE33BDAD8F7F4DC189F258ACE6C /* HealthXK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9435BF0471278356D9A2965326442824 /* Build configuration list for PBXNativeTarget "HealthXK" */;
+			buildPhases = (
+				D1689C960494CA92026AE7D7808907BC /* Headers */,
+				219F306272DAB8995E60BB43153C9BC5 /* Sources */,
+				AC739275FC757B9711A18ECB694B58A2 /* Frameworks */,
+				05A72F7320D10410F1158AB1861DBB24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthXK;
+			productName = HealthXK;
+			productReference = A521886E30684688F9995FE2AAE6FE45 /* HealthXK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D5341E19D16A87A2828B8AB4E1DD73F5 /* Pods-HealthXK_Example */ = {
@@ -370,7 +365,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				319B366C23BED1564CAEC6838F21C018 /* HealthXK */,
+				9B0D7DE33BDAD8F7F4DC189F258ACE6C /* HealthXK */,
 				D5341E19D16A87A2828B8AB4E1DD73F5 /* Pods-HealthXK_Example */,
 				5F2CBE861672BE30C46C336FE58E4C4D /* Pods-HealthXK_Tests */,
 			);
@@ -378,7 +373,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		120C229A2D9DBBAFAE3FD4E9467E931D /* Resources */ = {
+		05A72F7320D10410F1158AB1861DBB24 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -402,28 +397,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		219F306272DAB8995E60BB43153C9BC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27358080968DE88D08E44A92CD763A9 /* HealthXK-dummy.m in Sources */,
+				803B6CFC52C85B38677DACBFBBF46964 /* PLAppStore.swift in Sources */,
+				E981134531A36349B4E94C392A33C108 /* PLBaseViewController.swift in Sources */,
+				D27D794663A51EC5A53AB39DCD3DF977 /* PLErrorViewController.swift in Sources */,
+				B7F4F609A243CA082BD9604DBC258829 /* PLNavigationController.swift in Sources */,
+				26DDDEEEBDEED141DDA9BA3E803F1642 /* PLRoute+Main.swift in Sources */,
+				7266C7002FF982A2FE228BB823B4F301 /* PLRoute.swift in Sources */,
+				DA538A25813813E20928EC6B98A59F48 /* PLTabBarController.swift in Sources */,
+				C76141473B9D71BD0D86C254B0DB1394 /* UIViewController+Route.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		76D23E25B056C1EFDE7EBBC2E85C77E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B62A96DDD791888514CAC06E091E3E7D /* Pods-HealthXK_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8F11FCD68838B300CAF2C19CA36F5C93 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E0C3E0033E4CF578196287A359F9A20C /* HealthXK-dummy.m in Sources */,
-				CC1E1F45D3DA93C45642203076824777 /* PLAppStore.swift in Sources */,
-				BE3AFC25AB61DE3F158D70119864CE91 /* PLBaseViewController.swift in Sources */,
-				761D357442F17B2AB8ABFAF6C3E45916 /* PLErrorViewController.swift in Sources */,
-				8B6AB1775FC8705EEA9DB8F9E81C2BFB /* PLNavigationController.swift in Sources */,
-				561143078DD5A24AD9EBD3D0AA7DA5F7 /* PLRoute+Main.swift in Sources */,
-				F11E8B73124905456793D3E8EF1CBBCA /* PLRoute.swift in Sources */,
-				F5CE1D62C105D455CA3AB7B8AF5E2E12 /* PLTabBarController.swift in Sources */,
-				2E777E2AA82E59955D33A390572E976B /* UIColor+Extension.swift in Sources */,
-				0ED53A1F0F08F44AC66BEB1F20039709 /* UIViewController+Route.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,7 +435,7 @@
 		C3010B44CDEE0F9C11B53319B121B7A2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HealthXK;
-			target = 319B366C23BED1564CAEC6838F21C018 /* HealthXK */;
+			target = 9B0D7DE33BDAD8F7F4DC189F258ACE6C /* HealthXK */;
 			targetProxy = 63E25247245F235F4E36E6D839C8A3CA /* PBXContainerItemProxy */;
 		};
 		D318FF0F31F3BECC21237CF39446C56D /* PBXTargetDependency */ = {
@@ -453,9 +447,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2D332FCBA54317EA7A1471CD52413CF0 /* Release */ = {
+		14014CCE45D976015ED167B0F54F8F75 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0D282DF4860ED726A386A7C7887442F /* HealthXK.xcconfig */;
+			baseConfigurationReference = BDF3BA03171B494CA84B3D9CAE2FA208 /* HealthXK.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -479,11 +473,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		3580F6ADFF6AA90798651AF26ED0FA84 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -551,6 +544,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		7CCAE28127C791839DF1DFF3CFDA7417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDF3BA03171B494CA84B3D9CAE2FA208 /* HealthXK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HealthXK/HealthXK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HealthXK/HealthXK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HealthXK/HealthXK.modulemap";
+				PRODUCT_MODULE_NAME = HealthXK;
+				PRODUCT_NAME = HealthXK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		8AE50835EE18029738E6BFA956E7D3CB /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -683,37 +708,6 @@
 			};
 			name = Release;
 		};
-		D384AC6F646EB82CCBE420FDEAD62082 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0D282DF4860ED726A386A7C7887442F /* HealthXK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HealthXK/HealthXK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HealthXK/HealthXK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HealthXK/HealthXK.modulemap";
-				PRODUCT_MODULE_NAME = HealthXK;
-				PRODUCT_NAME = HealthXK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -786,20 +780,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0D4E0E8BA37AD43FBF23CF59B87C5224 /* Build configuration list for PBXNativeTarget "HealthXK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D384AC6F646EB82CCBE420FDEAD62082 /* Debug */,
-				2D332FCBA54317EA7A1471CD52413CF0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
 				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9435BF0471278356D9A2965326442824 /* Build configuration list for PBXNativeTarget "HealthXK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14014CCE45D976015ED167B0F54F8F75 /* Debug */,
+				7CCAE28127C791839DF1DFF3CFDA7417 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

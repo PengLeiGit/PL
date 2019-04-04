@@ -1,6 +1,6 @@
 {
   "name": "HealthXK",
-  "version": "0.1.4",
+  "version": "0.1.7",
   "summary": "项目独立功能集成",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/PengLeiGit",
@@ -13,11 +13,20 @@
   },
   "source": {
     "git": "https://github.com/PengLeiGit/PL.git",
-    "tag": "0.1.4"
+    "tag": "0.1.7"
   },
   "platforms": {
     "ios": "9.3"
   },
-  "source_files": "HealthXK/Classes/**/*",
-  "swift_version": "4.2"
+  "swift_version": "4.2",
+  "subspecs": [
+    {
+      "name": "AppStore",
+      "source_files": "HealthXK/Classes/AppStore/*.swift"
+    },
+    {
+      "name": "PLRoute",
+      "source_files": "HealthXK/Classes/PLRoute/*.swift"
+    }
+  ]
 }

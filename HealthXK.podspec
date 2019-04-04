@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HealthXK'
-  s.version          = '0.1.5'
+  s.version          = '0.1.7'
   s.summary          = '项目独立功能集成'
 
 # This description is used to generate tags and improve search results.
@@ -30,16 +30,16 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.3'
 
-  s.source_files = 'HealthXK/Classes/**/*'
+#  s.source_files = 'HealthXK/Classes/**/*'
   s.swift_version = '4.2'
   
   
   s.subspec 'AppStore' do |ss|
-    ss.source_files = "HealthHK/Classes/AppStore/*.swift"
+    ss.source_files = "HealthXK/Classes/AppStore/*.swift"
   end
   
   s.subspec 'PLRoute' do |ss|
-    ss.source_files = "HealthHK/Classes/PLRoute/*.swift"
+    ss.source_files = "HealthXK/Classes/PLRoute/*.swift"
   end
   
 end
