@@ -1,5 +1,5 @@
 PODS:
-  - HealthXK (0.1.1)
+  - HealthXK (0.1.4)
 
 DEPENDENCIES:
   - HealthXK (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HealthXK: c6216d5c1b47a93b815dad5c93719128d741fe6a
+  HealthXK: 20a52819aecdd2a91d0b4d41217cc3d702ac800c
 
 PODFILE CHECKSUM: fff665a1455bf6c78c830a2129737cc70079a255
 

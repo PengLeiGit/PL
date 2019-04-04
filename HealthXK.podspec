@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HealthXK'
-  s.version          = '0.1.3'
-  s.summary          = 'test of HealthXK.'
+  s.version          = '0.1.4'
+  s.summary          = '项目独立功能集成'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

@@ -1,7 +1,7 @@
 {
   "name": "HealthXK",
-  "version": "0.1.1",
-  "summary": "test of HealthXK.",
+  "version": "0.1.4",
+  "summary": "项目独立功能集成",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/PengLeiGit",
   "license": {
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/PengLeiGit/PL.git",
-    "tag": "0.1.1"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "9.3"
